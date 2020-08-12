@@ -1308,9 +1308,9 @@ h1, h2, h3, h4, h5,
     font-size: 1rem;
     font-style: italic; }
   .testimonial figure img {
-    max-width: 100px;
+    width: 210px !important;
     margin: 0 auto;
-    border-radius: 50%; }
+     }
 
 .breadcrumb-custom {
   font-size: 1rem !important; }
