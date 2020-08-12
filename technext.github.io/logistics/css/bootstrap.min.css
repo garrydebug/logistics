@@ -178,7 +178,7 @@ sup {
 }
 
 a {
-	color: #f89d13;
+	color: #FF1744;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects
@@ -2648,7 +2648,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
 	color: #212529;
-	background-color: #f89d13;
+	background-color: #FF1744;
 	border-color: #f89d13
 }
 
@@ -6793,7 +6793,7 @@ button.bg-danger:hover {
 }
 
 .bg-light {
-	background-color: #f8f9fa!important
+	background-color: #ECEFF1!important
 }
 
 a.bg-light:focus,
@@ -9634,7 +9634,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-	color: #f89d13!important
+	color: #FF1744!important
 }
 
 a.text-primary:focus,

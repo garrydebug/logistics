@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5,
   height: 43px;
   border-radius: 0; }
   .form-control:active, .form-control:focus {
-    border-color: #f89d13; }
+    border-color: #FF1744; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
@@ -1323,7 +1323,7 @@ h1, h2, h3, h4, h5,
 .how-it-work-item .number {
   width: 50px;
   height: 50px;
-  background: #f89d13;
+  background: #FF1744;
   color: #fff;
   line-height: 55px;
   font-weight: 300;
@@ -1357,7 +1357,7 @@ h1, h2, h3, h4, h5,
     .ul-social-circle li span {
       width: 30px;
       height: 30px;
-      background: #777;
+      background: #546E7A;
       font-size: 13px;
       text-align: center;
       line-height: 30px;
@@ -1369,7 +1369,7 @@ h1, h2, h3, h4, h5,
       -o-transition: .3s all ease;
       transition: .3s all ease; }
     .ul-social-circle li a:hover span {
-      background: #2b2b2b;
+      background: #263238;
       color: #fff; }
 
 .custom-pagination a, .custom-pagination span {
@@ -1378,9 +1378,9 @@ h1, h2, h3, h4, h5,
   line-height: 40px;
   border-radius: 50%;
   display: inline-block;
-  background: #f89d13;
+  background: #FF1744;
   color: #fff; }
 
 .custom-pagination span {
-  background: #e6e6e6;
+  background: #ECEFF1;
   color: #000; }
