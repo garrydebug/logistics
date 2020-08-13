@@ -930,7 +930,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
   .slide-one-item.home-slider .owl-prev:hover, .slide-one-item.home-slider .owl-prev:focus, .slide-one-item.home-slider .owl-next:hover, .slide-one-item.home-slider .owl-next:focus {
-    background: black; }
+    background: #37474F; }
 
 .slide-one-item.home-slider:hover .owl-nav, .slide-one-item.home-slider:focus .owl-nav, .slide-one-item.home-slider:active .owl-nav {
   opacity: 10;
