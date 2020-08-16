@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5,
       padding: 10px 10px; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 10px 0px;
-        color: #fff;
+        color: white;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
           color: #E53935; }
@@ -1384,3 +1384,24 @@ h1, h2, h3, h4, h5,
 .custom-pagination span {
   background: #ECEFF1;
   color: #000; }
+
+
+
+.page-main-image {
+  min-height: 390px !important;
+}
+
+.page-main-image .aos-animate
+{
+      margin-top: -156px;
+}
+
+.page-navbar {
+  background-color: white;
+  height: 64px;
+ padding-top: 0px !important;
+}
+
+.page-navbar .site-navigation .site-menu > li > a  {
+  color: black;
+}
