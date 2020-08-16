@@ -179,6 +179,7 @@ sup {
 
 a {
 	color: #FF1744;
+	color: #E53935;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects
@@ -2648,7 +2649,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
 	color: #212529;
-	background-color: #FF1744;
+	background-color: #E53935;
 	border-color: #f89d13
 }
 
@@ -9634,7 +9635,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-	color: #FF1744!important
+	color: #E53935!important
 }
 
 a.text-primary:focus,
