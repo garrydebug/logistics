@@ -54,20 +54,19 @@ jQuery(document).ready(function($) {
 	  //   });
 
 
-		$('body').on('click', '.has-children', function(e) {
-
+		$('body').on('click', '#test', function(e) {
       var $this = $(this);
-	  $this.find('.arrow-collapse').removeAttr('data-toggle');
-
       if ( $this.find('.collapse').hasClass('show') ) {
+      	 $this.find('.arrow-collapse').removeAttr('data-toggle');
          $this.find('.collapse').removeClass('show');
          $this.find('.arrow-collapse').addClass('collapsed');
 
       } else {
+      	      $this.find('.arrow-collapse').removeAttr('data-toggle');
               $this.find('.collapse').addClass('show');
               $this.find('.arrow-collapse').removeClass('collapsed');
 
-         }
+      }
       e.preventDefault();  
       
     });
