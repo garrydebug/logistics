@@ -1410,3 +1410,7 @@ h1, h2, h3, h4, h5,
 .page-navbar .site-navigation .site-menu > li > a  {
   color: black;
 }
+
+[class^="icon-"], [class*=" icon-"] {
+  color: #E53935 !important;
+}
