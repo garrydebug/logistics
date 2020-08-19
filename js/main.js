@@ -53,6 +53,22 @@ jQuery(document).ready(function($) {
       
     });
 
+		$('body').on('click', '.has-children', function(e) {
+      var $this = $(this);
+      if ($this.find('.collapse').hasClass('show') ) {
+        $this.removeClass('active');      
+        $this.find('.collapse').removeClass("show");
+
+      } else {
+        $this.addClass('active');
+        $this.find('.collapse').addClass("show");
+      }
+      e.preventDefault();  
+      
+    });
+
+
+
 		$(window).resize(function() {
 			var $this = $(this),
 				w = $this.width();
