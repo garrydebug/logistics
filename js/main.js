@@ -42,30 +42,36 @@ jQuery(document).ready(function($) {
 
     }, 1000);
 
-		$('body').on('click', '.arrow-collapse', function(e) {
-      var $this = $(this);
-      if ( $this.closest('li').find('.collapse').hasClass('show') ) {
-        $this.removeClass('active');
-      } else {
-        $this.addClass('active');
-      }
-      e.preventDefault();  
-      
-    });
+			// $('body').on('click', '.arrow-collapse', function(e) {
+	  //     var $this = $(this);
+	  //     if ( $this.closest('li').find('.collapse').hasClass('show') ) {
+	  //       $this.removeClass('active');
+	  //     } else {
+	  //       $this.addClass('active');
+	  //     }
+	  //     e.preventDefault();  
+	      
+	  //   });
+
 
 		$('body').on('click', '.has-children', function(e) {
+
       var $this = $(this);
-      if ($this.find('.collapse').hasClass('show') ) {
-        $this.removeClass('active');      
-        $this.find('.collapse').removeClass("show");
+	  $this.find('.arrow-collapse').removeAttr('data-toggle');
+
+      if ( $this.find('.collapse').hasClass('show') ) {
+         $this.find('.collapse').removeClass('show');
+         $this.find('.arrow-collapse').addClass('collapsed');
 
       } else {
-        $this.addClass('active');
-        $this.find('.collapse').addClass("show");
-      }
+              $this.find('.collapse').addClass('show');
+              $this.find('.arrow-collapse').removeClass('collapsed');
+
+         }
       e.preventDefault();  
       
     });
+
 
 
 
