@@ -1306,7 +1306,7 @@ h1, h2, h3, h4, h5,
     transform: translateX(0%); }
 
 .testimonial {
-  max-width: 840px;
+  max-width: 100%;
   margin: 0 auto !important;
   text-align: center; }
   .testimonial blockquote {
